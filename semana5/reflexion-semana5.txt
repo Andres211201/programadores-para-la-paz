@@ -1,0 +1,8 @@
+Las APIs pordría ayudar a las comunidades a compartir información, reportes y alertas de manera segura,
+mediantes herramientas digitales en páginas web o sensores enlazados, los cuales estén comunicadas por 
+este medio, capaces de llevar información importante a cada una de las comunidades. Se podrían crear 
+aplicaciones de sistemas de información, datos meteolorogicos, sistemas de prevención de desastres entre otras
+que permitan evitar riesgos en zonas de dificil acceso o ayudar los entes rescatistas o prestadores de salud.
+Así mismo, el estado podría tener información precisa de la situación presente en las comunidades y así 
+establecer planes estratégicos o gestión administrativa que apoye el acceso de ayudas comunitarias y 
+educación.

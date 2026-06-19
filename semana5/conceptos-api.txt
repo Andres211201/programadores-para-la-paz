@@ -1,0 +1,3 @@
+La ruta POST /reporte representa el punto de entrada de datos para centralizar la información que generan los ciudadanos. 
+Cuando se genera un reporte por alguna novedad en una comunidad lejana. estos puedes mandar la información a esta ruta con 
+el fin de hacer conocer esos datos con otras comunidades que estén conectados a esta misma, ya sea por una app o plataforma.

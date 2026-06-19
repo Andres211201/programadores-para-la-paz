@@ -1,0 +1,33 @@
+1) app.get('/', (req, res) => {
+  res.send('Servidor activo');
+});
+
+Es la ruta raíz, la puerta de entrada principal del servidor, cuanto entras al navegador con la ruta principal ingresa a la página de inicio
+
+
+2) app.get('/saludo', (req, res) => {
+  res.send('Hola comunidad');
+});
+
+define la ruta para que ingrese con el link localhost:3000/saludo, cualquier usuario recibira la respuesta Hola comunidad
+
+
+3) app.get('/mensaje/:nombre', (req, res) => {
+  const nombre = req.params.nombre;
+  res.send('Hola ' + nombre);
+});
+
+Es una ruta dinamica debido a la parte de :nombre, los dos puntos indican que esa parte de la url es una variable y dependiendo del valor de esta
+el servidor da un respuesta
+
+4) app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+esta ruta utiliza el método POST, para recibir información que una app, un formulario o una comunidad, quiere guardar
+o procesar en el servidor. Debido a que express tiene el metodo express.json el servidor puede leer los archivos json
+para trabajar con la información que contienen.
